@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney API - Personagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="personagens.css">
+</head>
+<body>
+    <h1>PERSONAGENS DA DISNEY</h1>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Pesquisar filmes...">
+            <button id="search-button">Pesquisar</button>
+        </div>
+
+        <div id="characters" class="character-container"></div>
+        
+        <div class="pagination">
+            <button id="previous-page">Anterior</button>
+            <button id="next-page">Próxima</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Disney. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="./personagens.js"></script>
+</body>
+</html>

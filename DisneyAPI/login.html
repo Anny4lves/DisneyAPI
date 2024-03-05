@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Disney API</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>PERSONAGENS DISNEY</h1>
+        <div class="login">
+        <h2>Faça aqui seu login:</h2>
+    </div>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <div class="password-container">
+                <input type="password" id="senha" name="senha" required><br>
+                <br>
+            
+                <span class="password-toggle" onclick="togglePasswordVisibility()">Mostrar senha</span>
+            </div>
+
+            <label>
+                <input type="checkbox" id="naoSouRobo" name="naoSouRobo" required> Não sou um robô
+            </label><br>
+
+            <button type="submit" id="login-button">Entrar</button>
+        </form>
+
+        <footer>
+            <p>&copy; 2024 Disney. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
